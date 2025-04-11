@@ -1,0 +1,28 @@
+temp
+
+# Node.js
+node_modules
+
+# Terraform
+**/*.tfstate
+**/*.tfvars
+**/*.backup
+cloud/terraform/09-import
+
+# Cloud Foundry
+vcap-local.json
+
+# Local Values
+**/*.pem
+**/.terraform/*
+cloud/certificate
+cloud/chart/mytodo/local-values.yaml
+credentials.env
+cloud/kubernetes/imagePullSecret.json
+cloud/kubernetes/ingress-tls-rewrite.yaml
+cloud/kubernetes/mytodo.yaml
+cloud/kubernetes/mytodo-community.yaml
+
+# Miscellaneous
+myreadme.txt
+.editorconfig
